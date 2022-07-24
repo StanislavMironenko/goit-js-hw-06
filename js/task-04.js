@@ -19,13 +19,13 @@ incrementBtn.addEventListener("click", onIncrementButtonClick);
 let counterValue = 0;
 function onDecrentButtonClick() {
     updateValue(counterValue-=1);
-    console.log("click -")
+ 
    
 }
 
 function onIncrementButtonClick() {
     updateValue((counterValue+=1));
-     console.log("click +");
+    
 }
 function updateValue(value){
     valueDisplay.innerHTML = value;

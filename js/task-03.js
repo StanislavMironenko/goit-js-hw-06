@@ -37,5 +37,5 @@ const element= images.map(
       `<li> <img class=item src='${image.url}' alt='${image.alt}'></li>`
   )
   .join("");
-console.log(element);
+
 galleryList.insertAdjacentHTML("afterbegin", element);
